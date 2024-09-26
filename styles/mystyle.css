@@ -1,0 +1,145 @@
+h1, h2 , h4 {
+    font-family: young serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p,ul,ol{
+    font-family: outfit;
+    font-weight: 400;
+}
+
+p{
+    color:hsl(30, 10%, 34%);
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+h1{
+    margin-bottom: 0;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+    margin-top: 0.6rem;
+    margin-bottom:0.6rem;
+}
+
+h4{
+    color:hsl(332, 51%, 32%);
+    margin-bottom: 0;
+}
+
+#ingredients{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:35rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding:1.5rem;
+}
+
+.overview{
+    background-color:hsl(330, 100%, 98%) ;
+    padding-left:1.3rem;
+    border-radius:.75rem ;
+}
+
+
+.overview ul{
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+ol,ul{
+    padding-left: 1.1rem;
+}
+
+ol li, ul li{
+    color:hsl(30, 10%, 34%);
+    font-size: 0.85rem;
+    font-family: outfit;
+    font-weight: 400;
+    padding-left:1rem;
+    margin-bottom: 0.5rem;
+}
+
+ol li::marker, ul li::marker{
+    color:hsl(14, 45%, 36%);
+    padding-right:1rem;
+}
+
+.line{
+    border: 0.7px solid lightgray;
+    width:100%;
+}
+
+img{
+    width:100%;
+    height: auto;
+    max-width:35rem;
+    border-radius: .75rem;
+}
+
+.nutrition-values{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nutrition-values *{
+    margin-top:.4rem;
+    margin-bottom:.4rem;
+}
+
+.item{
+    color: hsl(30, 10%, 34%);
+    text-align: left;
+    padding-left: 1.7rem;
+    width:50%;
+}
+
+.value{
+    color:hsl(14, 45%, 36%);
+    font-family: outfit;
+    font-weight: 700;
+    text-align: left;
+    flex:1;
+}
+
+.attribution { 
+    margin-top:1rem;
+    font-size: 11px; text-align: center; 
+}
+    
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:500px){
+    body {
+        padding: 0 .5rem; 
+    }
+    
+    .content {
+        max-width: 100%; 
+        padding: 1rem; 
+    }
+
+}
